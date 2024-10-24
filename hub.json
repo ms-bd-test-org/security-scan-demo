@@ -1,0 +1,36 @@
+{
+	"data": {
+		"blackduck": {
+			"url": "https://us1a-int-hub02.nprd.sig.synopsys.com",
+			"token": "NWIyNDUxYzQtZjA2MC00MzQ0LTgwNDUtZTQ5YTAzNzc2OWI3OmM3NWE2MzhlLTBhNWUtNDI1NS1hMTA2LTJkNGRhNjVlNGVmOA==", 
+			"scan": {
+				"full": "true"
+			},
+			"install": {
+				"directory": "/Users/manjeet/OneDrive - Synopsys, Inc/Documents/Integrations Team/bridge-install-dir/hub"
+			},
+			"fixpr": {
+				"enabled": true
+			}
+		},
+		"github": {
+			"user": {
+				"token": "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"
+			},
+			"repository" : {
+				"name": "insecure-bank",
+				"branch": {
+					"name": "main"
+				},
+				"owner": {
+					"name" :"manjeet-s"
+				}
+			}
+		},
+		"environment":{
+			"scan": {
+				"pull": false
+			}
+		}
+	}
+}

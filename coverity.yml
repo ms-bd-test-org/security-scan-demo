@@ -1,0 +1,4 @@
+capture:
+    build:
+        build-command: mvn -B -DskipTests package
+        clean-command: mvn -B clean

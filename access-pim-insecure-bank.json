@@ -1,0 +1,25 @@
+{
+	"data": {
+		"polaris": {
+			"accesstoken": "5cu2iej86l0g37oivbo2j6qa9svnh3jje7l4kqt2ri5inensoakeedn8vi3mn3pl4ot8cne0tc0om",
+			"application": {
+				"name": "ms-insecure-bank-app"
+			},
+			"project": {
+				"name": "ms-insecure-bank-proj-2"
+			},
+			"branch": {
+				"name": "ms-test-branch-new"
+			},	
+			"assessment": {
+				"types":  ["SCA"]
+			},
+			"serverUrl": "https://pim.altair.synopsys.com"
+		},
+		"tool": {
+			"install": {
+				"directory": "/Users/manjeet/OneDrive - Synopsys, Inc/Documents/Integrations Team/bridge-install-dir/pim-new"
+			}
+		}	
+	}
+}
