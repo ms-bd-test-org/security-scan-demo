@@ -18,6 +18,6 @@ socket1.on('error', (data)=> {
     console.log(data);
 });
 
-var req = https.request({port: 1336, host: 'https://example2.com', rejectUnauthorized: false}, function(){ 
+var req = https.request({port: 1336, host: 'https://example2.com', rejectUnauthorized: true}, function(){ 
     console.log('client connected');
 }); 
